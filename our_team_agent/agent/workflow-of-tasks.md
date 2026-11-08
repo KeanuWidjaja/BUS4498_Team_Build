@@ -2,7 +2,7 @@
 
 ## 1. Workflow Goal
 
-This workflow supports the goal in our completed [team charter]([Complete this field]). The workflow coordinates Register supplied budget inputs, Check input completeness, Compare planned and past spending, Draft budget planning options, Review planning result, Revise reviewed planning result, Request missing details. Its intended result is: A reviewed budget-planning result is saved or otherwise made available to the requester, with documented assumptions, identified gaps, and any requested clarification resolved or noted.
+This workflow supports the goal in our completed BudgetPilot team charter. The workflow coordinates Register supplied budget inputs, Check input completeness, Compare planned and past spending, Draft budget planning options, Review planning result, Revise reviewed planning result, Request missing details. Its intended result is: A reviewed budget-planning result is saved or otherwise made available to the requester, with documented assumptions, identified gaps, and any requested clarification resolved or noted.
 
 ## 2. Workflow Trigger
 
