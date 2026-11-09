@@ -9,11 +9,11 @@ Written in plain words with the BUS 4498 Agent Builder Kit. Our AI assistant tur
 - Supabase project: https://uaultozpzbnppqwpjvuo.supabase.co
 - Owner of the repository and the Supabase project: Keanu Widjaja
 - Teammate: Angel Losoya, a collaborator on GitHub and a Developer in the Supabase organization
-- We say “I’m working on it” and “pushed” in: Our Discord DM/Chat. One of us works at a time.
+- We say “I’m working on it” and “pushed” in: imessage chat. One of us works at a time.
 
 ## What our agent does
 
-Reads a club’s budget request for an event or month, compares planned spending with past spending by category, and drafts two or more budget options for the treasurer to review. It never makes purchases or moves money.
+For individuals and organizations managing recurring expenses, reduce average monthly overspending across food, clothing, events, and similar categories by 25%, measured by the difference between planned and actual spending, moving from a baseline established during the user’s first month to the target within 90 days, without making purchases or financial transfers, overriding user priorities, or presenting estimates as guaranteed outcomes. The agent will read receipts, have access to refund requests, and have access to fundraiser information.
 
 ## Our tasks
 
@@ -21,15 +21,12 @@ Use the tasks in our task specifications: `our_team_agent/agent/workflow-of-task
 
 ## Who can see or change what
 
-Club officers see and submit only their own budget requests and results. Only the treasurer (the budget reviewer) sees every request, approves or rejects each draft, and can switch lessons off. Past spending and available funds are never shown on the public page.
+All board members will be able to see what the agent gives, but the treasurer is the only one that is allowed to use the agent.
 
 ## External tools and applications
 
-| # | Tool or application | What the agent uses it for | What it does with it | Most sensitive data it touches | How it connects |
-|---|---|---|---|---|---|
-| 1 | Gmail | Sends the clarification questions to the officer who made the request, after code checks there is one question per missing item and no made-up amount | Sends with it | Internal | A sign-in (OAuth) |
-| 2 | Google Sheets | Reads the Club's past-spending log so the officer doesn't have to retype past spending | Reads from it | Confidential | An API key (in Supabase Secrets) |
+None: our agent uses no external tools or applications.
 
 ## Files people upload
 
-None.
+photos of calendars, receipts, venmo balance screenshots
